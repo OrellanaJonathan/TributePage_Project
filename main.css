@@ -5,3 +5,26 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
     font: inherit;
     font-size: 100%;
 }
+h1 {
+    font-family: Verdana, sans-serif, monospace;
+    font-size: 24px;
+    text-align: center;
+}
+h2 {
+    font-family: Verdana, sans-serif, monospace;
+    font-size: 18px;
+    text-align: center;
+}
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+ul {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    padding-left: 5%;
+}
+.header img {
+    display: block;
+    margin: 0 auto 15px auto;
+}
