@@ -7,12 +7,15 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 }
 h1 {
     font-family: Verdana, sans-serif, monospace;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
+    padding: 30px;
 }
 h2 {
     font-family: Verdana, sans-serif, monospace;
     font-size: 18px;
+    text-align: center;
+    margin: 0 auto 0 auto;
 }
 p {
     font-family: Verdana, sans-serif;
@@ -31,8 +34,30 @@ ul {
     display: block;
     margin: 0 auto 15px auto;
 }
-.timeline ul h2 {
+.header p {
+    margin: 15px auto 15px auto;
+}
+.timeline ul {
     display: block;
     width: 500px;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 0 auto;
+    text-align: left;
+}
+.timeline h2 {
+    margin: 15px auto -15px -100px;
+}
+.top-header {
+    background-color: lightgrey;
+}
+.timeline {
+    background-color: lightgray;
+    padding: 1px;
+}
+.testimony {
+    background-color: lightgray;
+    padding: 30px;
+}
+.testimony p {
+    padding: 15px;
+    font-size: 14px;
 }
